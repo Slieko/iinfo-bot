@@ -14,7 +14,8 @@ module.exports = {
 		.pipe(fs.createWriteStream('./comandi/utiliti/Cat.json'));
 
 		const Embed = new EmbedBuilder()
+		.setTitle('cet :3')
 		.setImage(url);
-		await interaction.reply({ embeds: [Embed] });
+interaction.reply({ embeds: [Embed] });
 	},
 };
